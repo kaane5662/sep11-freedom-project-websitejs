@@ -1,0 +1,28 @@
+{
+  "name": "sep11-freedom-project-websitejs",
+  "version": "1.0.0",
+  "description": "Final project for sep11",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "firebase": "^9.6.6"
+  },
+  "devDependencies": {
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaane5662/sep11-freedom-project-websitejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaane5662/sep11-freedom-project-websitejs/issues"
+  },
+  "homepage": "https://github.com/kaane5662/sep11-freedom-project-websitejs#readme"
+}
