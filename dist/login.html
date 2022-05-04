@@ -10,53 +10,70 @@
             /* CSS */
             .setting {
                 text-align: center;
-                
+
             }
             .textbox {
-                 
+
             }
-            
+
         </style>
-        
+
         <title>Login</title>
     </head>
     <body>
         <!-- HTML -->
        
         <div class = "setting">
-         <input type="text" placeholder="Username" id="user" class ="textbox"><br>
-         <input type="text" placeholder="Password" id="pass"class = "textbox"><br>
-         <button>Sign In</button><br>
+         <form class = "logIn">
+         <input type="email" placeholder="Email"  name = "userAccount" class ="textbox" required><br>
+         <input type="password" placeholder="Password"  name = "userPass" class = "textbox" required><br>
+         <button>Log In</button><br>
+         
+         </form>
+         <button class = "logout">Log Out</button><br>
          <a href = "signup.html">Sign Up</a>
+         
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="bundle.js"></script>
+        <!--<script type = "module" src = "../index.js"></script>-->
+        <script type = "module" src = "initials.js"></script>
+        <script type = "module" src = "logPage.js"></script>
         <script>
             // JS
+
             
+          
+          
+          
+          
+            // document.querySelector("button").addEventListener("click", function(){
+
             
-            document.querySelector("button").addEventListener("click", function(){
-               
-               
-               var username = document.querySelector("#user").value 
-              console.log(username) 
-              var password = document.querySelector("#pass").value
-                console.log(password)
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-            })
-            
-     
-            
-            
+            //   var username = document.querySelector("#user").value
+            //   console.log(username)
+            //   var password = document.querySelector("#pass").value
+            //     console.log(password)
+
+
+
+
+
+
+
+
+
+
+            // })
+
+
+
+
+
+
+
+
+
+
         </script>
     </body>
 </html>

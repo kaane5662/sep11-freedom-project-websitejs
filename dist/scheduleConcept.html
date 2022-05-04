@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    
+        <style>
+            /* CSS */
+            .testing {
+                border-style: solid;
+
+            }
+            .font1 {
+                font-size: 20px;
+                text-align: center;
+                padding-top: 25px;
+            }
+            .schedulerows {
+
+              padding-right: 50px;
+
+              padding-left: 50px;
+            }
+            img {
+                width: 15px;
+                height: 15px;
+                cursor: pointer;
+                opacity: 0.1;
+
+
+            }
+            .none {
+              display: none;
+            }
+            
+            
+            
+            
+        </style>
+
+        <title>Schedule</title>
+    </head>
+    <body>
+        <!-- HTML -->
+
+        <h1>Schedule</h1>
+
+
+<form class = "addName">
+<input type = "text" id = "pass"name = "username" required>
+<input type = "text" id = "user" name = "passworld" required>
+ <button id = "saveInfo">Save Snapshot</button>
+</form>
+ <button id = "global">Global Settings</button>
+ 
+
+
+<form class = "addSchedule">
+<div class=" row w3-card wholeThing" name = "skedul">
+
+
+
+
+<!--schedule header and time stamps-->
+
+
+
+
+  <div class="row testing font1">
+    <div class="col-xl-2">
+      <p style=" "> Time</p>
+    </div>
+    <div class="col-xl-2">
+      <p style=" "> Monday</p>
+    </div>
+    <div class="col-xl-2">
+      <p style=" "> Tuesday</p>
+    </div>
+    <div class="col-xl-2">
+      <p style=" "> Wednesday</p>
+    </div>
+    <div class="col-xl-2">
+      <p style=" "> Thursday</p>
+    </div>
+    <div class="col-xl-2">
+      <p style=" "> Friday</p>
+    </div>
+  </div>
+
+  <!--Row 1 Schedule-->
+
+    
+
+
+
+    <div class="row font1 schedulerows " style= "">
+      
+      <form class = "addSchedule">
+      <div class="col-xl-2 testing none">
+        <p class="c1r1"> Row1</p>
+      <img class = "idk"src = "https://cdn-icons-png.flaticon.com/512/84/84380.png">
+      </div>
+      
+      
+      
+      <div class="col-xl-2 testing">
+        <p class="c1r1"> Row1</p>
+      <img class = "idk" name = "c1r1" src = "https://cdn-icons-png.flaticon.com/512/84/84380.png">
+      </div>
+      <div class="col-xl-2 testing">
+        <p class="c1r2"> Row2</p>
+      <img class = "idk" name = "c1r2" src = "https://cdn-icons-png.flaticon.com/512/84/84380.png">
+      </div>
+      <div class="col-xl-2 testing">
+        <p class="c1r3"> Row3</p>
+        <img class = "idk" name = "c1r3" src = "https://cdn-icons-png.flaticon.com/512/84/84380.png">
+      </div>
+      <div class="col-xl-2 testing">
+        <p class="c1r4"> Row4</p>
+        <img class = "idk" name = "c1r4" src = "https://cdn-icons-png.flaticon.com/512/84/84380.png">
+      </div>
+      <div class="col-xl-2 testing">
+        <p class="c1r5"> Row5</p>
+        <img class = "idk" name = "c1r5" src = "https://cdn-icons-png.flaticon.com/512/84/84380.png">
+      </div>
+      <div class="col-xl-2 testing">
+        <p class="c1r6"> Row6</p>
+        <img class = "idk" name = "c1r6" src = "https://cdn-icons-png.flaticon.com/512/84/84380.png"><br>
+      </div>
+      <!--<button class = "col-xl-2 testing">Create Schedule</button>-->
+      
+   
+   </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <button>Create Schedule</button>
+    
+</form>
+
+
+
+<button class = "lookInputs">test</button>
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!--<script src="bundle.js"></script>-->
+        <!--<script type = "module" src = "index.js"></script>-->
+        <script type = "module" src = "theSite.js"></script>
+        <script type = "module" src = "initials.js"></script>
+
+
+        <script>
+            // JS
+
+// //global variables
+
+// var newlyAdded
+// var newColor
+// var newTextColor
+// var newBorders
+// var parent
+// var newImage
+
+
+// newImage = document.createElement("img");
+// newImage.src = "https://cdn-icons-png.flaticon.com/512/84/84380.png"
+// newImage.classList.add("newImaging")
+// newImage.style.marginTop = "50px;"
+        
+
+
+
+
+
+
+
+
+// // var addBookForm = document.querySelector('#saveInfo')
+
+// // var bunchOfNames
+// // var userPass
+
+
+
+
+
+
+
+
+// var images = document.querySelectorAll(".idk")
+// // var newImaging = document.querySelector(".newImaging")
+
+
+
+
+
+
+
+// function run() {
+  
+//         newlyAdded = prompt("What would you like to add.")
+//         newColor = prompt("What background color would you like to add")
+//         newTextColor = prompt("What text color would you like to add")
+//         newBorders = prompt("What are your new borders")
+    
+        
+        
+        
+       
+        
+//         linebreak = document.createElement("br");
+    
+//         newImage = document.createElement("img")
+//         newImage.src = "https://cdn-icons-png.flaticon.com/512/84/84380.png"
+//         newImage.classList.add("newImaging")
+//         newImage.style.marginTop = "50px;"
+        
+  
+//   }
+
+
+
+
+
+
+// images.forEach(function(image){
+  
+
+
+  
+  
+  
+  
+//   image.addEventListener("click",function(){
+  
+     
+//       run()
+       
+       
+//       parent = image.parentElement
+//       console.log(parent)
+    
+//         parent.innerText = newlyAdded
+//         parent.style.backgroundColor = newColor
+//         parent.style.color = newTextColor
+//         parent.style.borderRadius = newBorders
+        
+//       parent.appendChild(linebreak)
+//       parent.appendChild(newImage)
+  
+      
+//   })
+  
+  
+// })
+  
+
+
+    
+    
+    
+ 
+  
+ 
+  
+  
+  
+  
+//   document.querySelector("#global").addEventListener("click", function(){
+  
+//   var globalBackground = prompt("What would you like the background color to be")
+//   var globalColumns = prompt("What would you like your column colors to be")
+//   var globalText = prompt("What would you like your text color to be")
+//   var globalBorders = prompt("What would you like your borders to be")
+   
+  
+//     document.body.style.backgroundColor = globalBackground
+//     document.body.style.color = globalText
+//     var allColumns = document.querySelectorAll(".testing") 
+//     allColumns.forEach(function(column){
+      
+//       column.style.borderRadius = globalBorders
+//       column.style.backgroundColor = globalColumns
+      
+      
+      
+//     })
+
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+// var time = document.querySelector("#time")
+// console.log(time)
+
+// time.addEventListener("click", function(){
+
+//  var firstTime = prompt("What is your starting time")
+//  var finalTime = prompt("What is your ending time")
+//  var timeGap = prompt("How many minutes do you want each gap to be")
+
+
+
+
+// //schedule rows determiner based on time
+// var numberofRows = ((finalTime - firstTime)*(60/timeGap))*6
+// // console.log(initialization)
+
+// var startTime = parseInt(firstTime)
+// console.log(startTime)
+
+
+
+// for(var i = 0; i < numberofRows; i++){
+
+//   var elements = document.createElement("p")
+//   elements.innerHTML = ""
+//   elements.classList.add("col-xl-2", "testing")
+//   elements
+
+
+
+//   //time difference determiner based on time
+//   if(i == 0 || i % 6 == 0){
+
+
+
+//     elements.innerHTML = startTime + ":"+"00"+"-"+ (startTime+1) + ":"+"00"
+//     // console.log(startTime)
+//     // console.log(startTime +1)
+//     startTime++
+
+//   }else {
+
+//   }
+
+
+//   document.querySelector(".schedulerows").appendChild(elements)
+
+
+
+
+// }
+
+
+
+
+
+
+// })
+
+
+
+
+
+
+        </script>
+    </body>
+</html>
