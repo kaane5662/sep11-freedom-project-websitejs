@@ -203,134 +203,6 @@ load(c5r6, column5Load.r6)
 
 
 
-
-//   function local(column) {
-
-//         newlyAdded = prompt("What would you like to add.")
-//         newColor = prompt("What background color would you like to add")
-//         newTextColor = prompt("What text color would you like to add")
-        
-//         console.log(newStuff)
-//         // newStuff.push(newlyAdded, newColor, newTextColor)
-//         console.log(newStuff)
-
-
-
-//     //     parent = image.parentElement
-//     //   console.log(parent)
-
- 
-
-
-
-//       parent = column.parentElement
-//       console.log(parent)
-
-//       linebreak = document.createElement("br");
-//       newImage = document.createElement("img");
-
-
-
-//       newImage.src = "https://cdn-icons-png.flaticon.com/512/84/84380.png"
-//       newImage.setAttribute("id", convertClassToString)
-//       newImage.style.marginTop = "50px";
-
-//         parent.innerText = newlyAdded
-//         parent.style.backgroundColor = newColor
-//         parent.style.color = newTextColor
-//         // parent.style.borderRadius = newBorders
-
-//       parent.appendChild(linebreak)
-//       parent.appendChild(newImage)
-
-        
-     
-
-
-     
-
-
-//   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-  // if(makeNewImage == "1"){
-
-
-
-
-
-
-  //   console.log("makeNewImage now pls")
-
-
-  //   newIcons.forEach(function(newIcon){
-
-
-
-  //       function run() {
-
-  //       newlyAdded = prompt("What would you like to add.")
-  //       newColor = prompt("What background color would you like to add")
-  //       newTextColor = prompt("What text color would you like to add")
-  //       newBorders = prompt("What are your new borders")
-
-
-  //       parent = newIcon.parentElement
-  //     console.log(parent)
-
-  //     linebreak = document.createElement("br");
-  //     newImage = document.createElement("img");
-
-
-
-  //     newImage.src = "https://cdn-icons-png.flaticon.com/512/84/84380.png"
-  //     newImage.classList.add("newlyImage")
-  //     newImage.style.marginTop = "50px";
-
-  //       parent.innerText = newlyAdded
-  //       parent.style.backgroundColor = newColor
-  //       parent.style.color = newTextColor
-  //       parent.style.borderRadius = newBorders
-
-  //     parent.appendChild(linebreak)
-  //     parent.appendChild(newImage)
-
-  //     newIcons = document.querySelectorAll('.newlyImage')
-  //     makeNewImage = 1
-  //     console.log(newIcons)
-
-
-
-  // }
-
-  //     newIcon.addEventListener("click", function(){
-
-
-  //     run()
-
-
-
-  //     })
-
-
-
-
-
-
-
-  //   })
-
     var globalBackground 
      var globalColumns
     var globalText
@@ -348,55 +220,8 @@ load(c5r6, column5Load.r6)
     
 
 
-// load(c1r1, column1Load.r1)
-// load(c1r2, column1Load.r2)
-// load(c1r4, column1Load.r4)
-  // load(c1r2, column1Load.r2) 
 
 
-
-//   document.querySelector("#global").addEventListener("click", function(){
-    
-    
-   
-   
-   
-//   //original
-  
-   
-//   //firebase test
-//   //basically if a user schedule exists grab the global values from the collectionInfo array 
-   
-  
-//      globalBackground = prompt("What would you like the background color to be")
-//      collectionInfo[0] = globalBackground
-//      globalColumns = prompt("What would you like your column colors to be")
-//      collectionInfo[1] = globalColumns
-//      globalText = prompt("What would you like your text color to be")
-//      collectionInfo[2] = globalText
-//      globalBorders = prompt("What would you like your borders to be")
-//      collectionInfo[3] = globalBorders
-     
-   
-//   global()
-//   // newGlobalStuff.push(globalBackground, globalColumns, globalText, globalBorders)
-   
-   
-
-//     // document.body.style.backgroundColor = globalBackground
-//     // document.body.style.color = globalText
-//     // var allColumns = document.querySelectorAll(".testing")
-//     // allColumns.forEach(function(column){
-
-//     //   column.style.borderRadius = globalBorders
-//     //   column.style.backgroundColor = globalColumns
-
-
-
-//     // })
-
-
-// })
 
 
 function global() {
@@ -416,8 +241,6 @@ function global() {
 
 }
 
-    // load(c1r1, column1Load.r1)
-    // load(c1r2, column1Load.r2)
 
 
   function load(columnRow, columnRowLoad) {
@@ -461,77 +284,6 @@ function global() {
   }
   
    
-
-
-
-
-
-    // var inputs = document.querySelectorAll('.testing')
-    // var inputsArr = Array.prototype.slice.call(inputs);
-
-
-
-
-    // document.querySelector(".lookInputs").addEventListener('click', function(){
-
-
-    //   // var ins = document.querySelectorAll('.testing')
-
-    //   // console.log(ins)
-
-    // //   var ins = document.querySelectorAll('.testing')
-    // // var insArr = Array.from(ins);
-    // // console.log(insArr)
-
-    // })
-    
-    
-
-
-
-
-
-    
-    // reAdd()
-    
-
-    
-
-
-
-    // document.querySelector(".addSchedule").addEventListener('submit', (e) => {
-    //               e.preventDefault()
-
-
-    //     // const inputs = document.querySelectorAll('.testing')
-    //     // const inputsArr = Array.from(inputs);
-
-
-
-
-        
-    //     setDoc(docRef, {Column1: column1Load, globalData: collectionInfo })
-
-
-
-    //     // const colAccount = doc(db, 'accounts', user.uid)
-
-
-
-
-    //     .then(() => {
-
-    //       console.log('user added data')
-          
-    //     })
-    //     .catch(err => {
-    //       console.log(err.message)
-    //     })
-
-    //     })
-
-
-
 
 
     })
